@@ -47,7 +47,7 @@ public class Services {
 		if(b==false)
 			return null;
 		
-		logger.info(" X "+b);
+//		logger.info(" X "+b);
 		Account1 acc=accountRepo.save(account);
 		return acc;
 	}
